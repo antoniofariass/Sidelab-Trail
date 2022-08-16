@@ -11,22 +11,22 @@ print('--------------')
 p1.comer('maçã')
 print('--------------')
 
-p1.pararComer()
+p1.parar_comer()
 print('--------------')
 
-p1.pararComer()
+p1.parar_comer()
 print('--------------')
 
 p1.falar('economia')
 print('--------------')
 
-p1.pararComer()
+p1.parar_comer()
 print('--------------')
 
 p1.falar('falar')
 print('--------------')
 
-p1.pararFalar()
+p1.parar_falar()
 print('--------------')
 
 p2.falar('Assunto legal')

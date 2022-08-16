@@ -21,7 +21,7 @@ class Pessoa:
       print(f'{self.nome} está falando sobre {assunto}.')
       self.falando = True
 
-   def pararFalar(self):
+   def parar_falar(self):
       if not self.falando:
          print(f'{self.nome} não está falando.')
          return
@@ -40,7 +40,7 @@ class Pessoa:
       print(f'{self.nome} está comendo {alimento}.')
       self.comendo = True
 
-   def pararComer(self):
+   def parar_comer(self):
       if not self.comendo:
          print(f'{self.nome} não está comendo.')
          return
