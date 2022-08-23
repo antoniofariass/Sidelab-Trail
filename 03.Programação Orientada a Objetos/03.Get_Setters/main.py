@@ -1,6 +1,6 @@
 class Produto:
     def __init__(self,nome,preco):
-        self.nome = nome
+        self.nome = nome #inicializa com o setter | self._nome = nome, so incializa o nome
         self.preco = preco
     
     def desconto(self, percentual):
@@ -12,6 +12,7 @@ class Produto:
         return self._nome
 
     #Setter - nome
+    #nao posso ter setter sem getter, pode ter getter sem setter
     @nome.setter
     def nome(self, palavra):
         self._nome = palavra
