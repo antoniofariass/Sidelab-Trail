@@ -4,7 +4,8 @@ public, protected, private
 _ -> protected (por recomendação, ao se ver uma variavel assim, nao acessa-la)
 
 __ -> privado (o programa vai proibir de ser acessado)
-            porem caso vc tente usar, ira criar um atributo com o mesmo nome
+    porem caso vc tente usar, ira criar um atributo com o mesmo nome
+
 '''
 
 class BaseDeDados:
