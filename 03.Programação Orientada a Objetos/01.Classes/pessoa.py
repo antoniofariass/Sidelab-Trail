@@ -4,10 +4,10 @@ class Pessoa:
    ano_atual = int(datetime.strftime(datetime.now(), '%Y'))
    
    def __init__(self,nome, idade,comendo = False, falando= False):
-       self.nome = nome
-       self.idade = idade
-       self.comendo = comendo
-       self.falando = falando
+      self.nome = nome
+      self.idade = idade
+      self.comendo = comendo
+      self.falando = falando
    
    def falar(self,assunto):
       if self.comendo:
