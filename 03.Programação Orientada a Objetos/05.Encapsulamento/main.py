@@ -41,3 +41,5 @@ print(bd.__dados)
 print(bd._BaseDeDados__dados) #acessa o atributo real da classe
 
 bd.lista_clientes()
+
+#utilizar o setter para mexer no atributo, nao ir diretamente nele se nao ira criar uma copia
