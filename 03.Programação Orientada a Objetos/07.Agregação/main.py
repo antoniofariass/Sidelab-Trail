@@ -3,14 +3,18 @@ from classes import CarrinhoDeCompras, Produto
 carrinho = CarrinhoDeCompras()
 
 p1 = Produto('Camiseta', 50)
+p2 = Produto('Short', 30)
+p3 = Produto('Casaco', 150)
 
-print(p1.nome)
-print(p1.valor)
+carrinho.inserir_produto(p1)
+carrinho.inserir_produto(p2)
+carrinho.inserir_produto(p3)
+carrinho.inserir_produto(p1)
 
-p1.valor = 60 
+carrinho.lista_produto()
+print(carrinho.soma_total())
 
-print(p1.valor)
-print(p1.__dict__)
+
 
 
 

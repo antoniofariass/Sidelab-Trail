@@ -1,6 +1,3 @@
-from mailbox import NotEmptyError
-
-
 class CarrinhoDeCompras:
     def __init__(self) -> None:
         self.produtos = []
@@ -10,7 +7,7 @@ class CarrinhoDeCompras:
     
     def lista_produto(self):
         for produto in self.produtos:
-            print(produto.mome, produto.valor) #utilizando atributos da outra classe 
+            print(produto.nome, produto.valor) #utilizando atributos da outra classe 
         
     def soma_total(self):
         total_carrinho = 0
