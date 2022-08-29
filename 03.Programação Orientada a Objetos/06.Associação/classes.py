@@ -1,5 +1,4 @@
-from mimetypes import init
-
+#Associação - USA | Agregação - Tem | Composição - É dono | Herança - É
 
 class Escritor:
     def __init__(self,nome) -> None:
