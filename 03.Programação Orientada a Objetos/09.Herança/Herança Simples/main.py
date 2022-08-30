@@ -9,3 +9,5 @@ print(a1.nome)
 a1.falar()
 c1.falar()
 
+c2 = ClienteVIP('Rose',30,'Miranda')
+c2.falar()
