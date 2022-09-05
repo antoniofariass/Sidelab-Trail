@@ -1,3 +1,5 @@
+""" Declarar um método como abstrato é uma forma de obrigar o programador a redefinir esse método em todas as subclasses para as quais deseja criar objetos. """
+
 from abc import ABC, abstractmethod
 
 class A(ABC):
