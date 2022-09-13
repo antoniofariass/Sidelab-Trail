@@ -1,0 +1,2 @@
+#  Docstrings são strings que inserimos dentro de nosso código Python com o intuito de fornecer uma explicação sobre o funcionamento deste. 
+#  Essa string deve ser colocada como a primeira linha da definição de uma classe, método ou função.
