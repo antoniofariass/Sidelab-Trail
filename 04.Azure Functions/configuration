@@ -1,0 +1,13 @@
+Prompt	Seleção
+
+Selecionar um idioma	Escolha Python.
+
+Selecione o interpretador do Python para criar um ambiente virtual	Escolha seu interpretador do Python preferido. Se uma opção não for mostrada, digite o caminho completo no binário do Python.
+
+Selecione um modelo para a primeira função do projeto	Escolha HTTP trigger.
+
+Forneça um nome de função	Digite HttpExample.
+
+Nível de autorização	Escolha Anonymous, o que permite que qualquer pessoa chame o ponto de extremidade da função. Para obter mais informações sobre o nível de autorização, confira Chaves de autorização.
+
+Selecione como deseja abrir o projeto	Escolha Add to workspace.
