@@ -1,0 +1,19 @@
+APP SERVICE plano
+-----------------
+Um plano do Serviço de Aplicativo define um conjunto de recursos de computação para execução de um aplicativo Web. 
+Esses recursos de computação são análogos ao farm de servidores na hospedagem na Web convencional. Um ou mais aplicativos podem ser configurados para serem executados nos mesmos recursos de computação (ou no mesmo plano do Serviço de Aplicativo).
+
+Infraestrutura que sera hospedado o app service, seleciona a camada de precificação, features, gasto e etc.
+
+Camadas- Desenvolvimento / Produçaõ / Isolada
+
+STORAGE ACCOUNT
+-----------------
+Uma conta de armazenamento do Azure contém todos os seus objetos de dados do Armazenamento do Azure, incluindo blobs, compartilhamentos de arquivos, filas, tabelas e discos. 
+A conta de armazenamento fornece um namespace exclusivo para seus dados de armazenamento do Azure que podem ser acessados de qualquer lugar do mundo por HTTP ou HTTPS. 
+Os dados em sua conta de armazenamento são duráveis e altamente disponíveis, seguros e altamente escaláveis.
+
+CONCEITOS
+-----------------
+grupo de recursos - agrupamento logico dos recursos para aplicar regras e configuraçoes 
+a todos os recursos de uma so vez
