@@ -6,15 +6,17 @@ possa sacar/depositar nessa conta. Contas corrente tem um limite extra. Banco
 tem clientes e contas.
 
 Dicas:
-Criar classe Cliente que herda da classe Pessoa (Herança)
-    Pessoa tem nome e idade (com getters)
+Criar classe Cliente que herda da classe Pessoa (Herança) OK
+    Pessoa tem nome e idade (com getters) OK
     Cliente TEM conta (Agregação da classe ContaCorrente ou ContaPoupanca)
+
 Criar classes ContaPoupanca e ContaCorrente que herdam de Conta
-    ContaCorrente deve ter um limite extra
-    Contas têm agência, número da conta e saldo
-    Contas devem ter método para depósito
+    ContaCorrente deve ter um limite extra OK
+    Contas têm agência, número da conta e saldo OK
+    Contas devem ter método para depósito OK
     Conta (super classe) deve ter o método sacar abstrato (Abstração e
-    polimorfismo - as subclasses que implementam o método sacar)
+    polimorfismo - as subclasses que implementam o método sacar) Ok 
+    
 Criar classe Banco para AGREGAR classes de clientes e de contas (Agregação)
 Banco será responsável autenticar o cliente e as contas da seguinte maneira:
     Banco tem contas e clentes (Agregação)
