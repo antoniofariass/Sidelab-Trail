@@ -9,7 +9,7 @@ class Conta:
 
     @property
     def saldo(self):
-        return self.__saldo
+        return self._saldo
 
     @property
     def agencia(self):
@@ -20,11 +20,11 @@ class Conta:
         return self._numero_conta
 
     def depositar(self,valor):
-        self.__saldo =+ valor
+        self._saldo += valor
 
     def detalhes(self):
-        print(f'Agência: {self.agencia}'
-              f'Conta: {self.conta}'
+        print(f'Agência: {self.agencia}\n'
+              f'Conta: {self.numero_conta}\n'
               f'Saldo: {self.saldo}')
     
     @abstractmethod
@@ -45,7 +45,7 @@ class ContaCorrente(Conta):
             print('Saldo insuficiente!')
             return
         
-        self.saldo -= valor
+        self._saldo -= valor
         self.detalhes()
 
 
@@ -55,5 +55,5 @@ class ContaPoupanca(Conta):
             print('Saldo insuficiente!')
             return
         
-        self.saldo -= valor
+        self._saldo -= valor
         self.detalhes()
