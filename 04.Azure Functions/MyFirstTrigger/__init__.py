@@ -5,8 +5,8 @@ from requests import get
 
 def GetIPMan():
     myip = get('https://ip4.seeip.org/').text
-    print(f"Look! I just found my public IP {myip}")
-    return f"I just found my public IP here {myip}"
+    print(f"Look! I just found your public IP {myip}")
+    return f"Returning your public IP, thanks for using!! {myip}"
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
