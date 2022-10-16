@@ -11,7 +11,7 @@ def GetIPMan():
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
-    GetIPMan()
+    #GetIPMan()
 
     name = req.params.get('name')
     if not name:
