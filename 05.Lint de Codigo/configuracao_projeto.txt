@@ -1,8 +1,15 @@
+pip install pylint
+pip intall black
+pip install flake8
+pip install Pytest
+pip install pre-commit
+
 Configurar ambiente virtual 
 
 python3 -m venv venv 
 venv\Scripts\Activate.ps1
 deactivate
+
 
 
 Dar rated no codigo com pylint, escrever isso no terminal:
@@ -21,3 +28,16 @@ Nas funçoes uma boa pratica de programaçao:
 
 def(get:int, get2:int) -> int: (Com isso outro programador que for ler, podera ver)
     return
+
+
+
+Formatar o codigo:
+
+black "nome_do_arquivo.py"
+
+
+
+Pytest:
+
+colocar sempre o nome do arquivo 
+nome_test.py
