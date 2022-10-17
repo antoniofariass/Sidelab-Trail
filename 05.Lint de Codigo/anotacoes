@@ -1,0 +1,12 @@
+Dar rated no codigo com pylint, escrever isso no terminal:
+
+pylint "nome_do_arquivo.py" 
+
+Gerar arquivo para poder editar preferencias:
+
+pylint --generate-rcfile > .pylintrc
+
+Nas funçoes uma boa pratica de programaçao: 
+
+def(get:int, get2:int) -> int: (Com isso outro programador que for ler, podera ver)
+    return
