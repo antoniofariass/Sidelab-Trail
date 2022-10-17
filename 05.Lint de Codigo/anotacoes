@@ -1,10 +1,21 @@
+Configurar ambiente virtual 
+
+python3 -m venv venv 
+venv\Scripts\Activate.ps1
+deactivate
+
+
 Dar rated no codigo com pylint, escrever isso no terminal:
 
 pylint "nome_do_arquivo.py" 
 
+
+
 Gerar arquivo para poder editar preferencias:
 
 pylint --generate-rcfile > .pylintrc
+
+
 
 Nas funçoes uma boa pratica de programaçao: 
 
