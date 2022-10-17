@@ -19,7 +19,7 @@ Gerar o requirements:
 
 Requirements(caso ja tenha o Requirements):
 
-venv/bin/pip/ install -r requirements.txt
+.\venv\Scripts\pip3.exe install -r requirements.txt
 
 
 
