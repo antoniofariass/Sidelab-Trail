@@ -1,5 +1,5 @@
 pip install pylint
-pip intall black
+pip install black
 pip install flake8
 pip install Pytest
 pip install pre-commit
@@ -9,6 +9,17 @@ Configurar ambiente virtual
 python3 -m venv venv 
 venv\Scripts\Activate.ps1
 deactivate
+
+
+Gerar o requirements:
+
+.\venv\Scripts\pip3.exe freeze > requirements.txt
+
+
+
+Requirements(caso ja tenha o Requirements):
+
+venv/bin/pip/ install -r requirements.txt
 
 
 
