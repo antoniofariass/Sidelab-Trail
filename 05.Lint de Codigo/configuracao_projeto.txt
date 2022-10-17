@@ -41,3 +41,10 @@ Pytest:
 
 colocar sempre o nome do arquivo 
 nome_test.py
+
+
+
+Configurara o pre-commit:
+
+pre-commit install 
+configurar arquivo yaml
