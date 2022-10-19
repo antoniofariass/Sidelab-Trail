@@ -1,4 +1,4 @@
-from calculadora import soma
+from calculadora.calculadora import soma
 
 #ASSERTION 
 try:
