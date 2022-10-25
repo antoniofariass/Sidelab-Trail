@@ -27,6 +27,9 @@ class TestApi(unittest.TestCase):
     def test_external_api(self,googl,fb): 
         with mock.patch('app.google.get_data',return_value = 'data_2'):
             self.assertEqual(google.call_google_api(),'data_2')
+        with mock.patch('app.facebook.get_data',return_value = 'data_3'):
+            self.assertEqual(google.call_google_api(),'data_3')
+
 
 
 
