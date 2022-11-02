@@ -1,4 +1,4 @@
-from app.data import get_data
+from data import get_data
 
 
 def call_google_api():
