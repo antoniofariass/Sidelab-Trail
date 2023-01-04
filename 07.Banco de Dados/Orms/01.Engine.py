@@ -15,4 +15,4 @@ response = conn.execute("SELECT * FROM filmes")
 
 for row in response:
     print(row)
-    print(row.titulo)
+    print(row.keys())
