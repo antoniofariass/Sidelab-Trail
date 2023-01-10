@@ -2,7 +2,7 @@ from infra.repository.filmes_repository import FilmesRepository
 from infra.repository.atores_repository import AtoresRepository
 
 
-""" repo = FilmesRepository()
+repo = FilmesRepository()
 
 repo.insert('aladdin2', 'fantasia', 1992)
 repo.insert('mulan', 'fantasia', 1998)
@@ -13,8 +13,9 @@ print(data)
 repo.delete('mulan')
 
 data = repo.select()
-print(data) """
+print(data)
 
+#_____________________________________________
 repo = AtoresRepository()
 response = repo.select()
 print(response)

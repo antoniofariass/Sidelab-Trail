@@ -10,9 +10,13 @@ class FilmesRepository:
 
     def insert(self, titulo, genero, ano):
         with DBConnectionHandler() as db:
-            data_insert = Filmes(titulo=titulo, genero=genero, ano=ano)
-            db.session.add(data_insert)
-            db.session.commit()
+            try:
+                data_insert = Filmes(titulo=titulo, genero=genero, ano=ano)
+                db.session.add(data_insert)
+                db.session.commit()
+            except Exception as exception:
+                db.session.rollback()
+                raise exception
 
     def delete(self, titulo):
         with DBConnectionHandler() as db:
